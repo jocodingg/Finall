@@ -1,7 +1,7 @@
 const CACHE_NAME = 'story-app-cache-v1';
 const STATIC_ASSETS = [
   '/Finall/index.html',
-  '/Finall/manifest.webmanifest',
+  '/Finall/app.webmanifest',
   '/Finall/favicon.png',
   '/Finall/images/icon-192x192.png',
   '/Finall/images/icon-512x512.png',
