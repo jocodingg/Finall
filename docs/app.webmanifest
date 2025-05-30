@@ -1,7 +1,7 @@
 {
   "name": "Dicoding Story App",
   "short_name": "StoryApp",
-  "start_url": "/finall/",
+  "start_url": "/Finall/",
   "scope": "/Finall",
   "display": "standalone",
   "background_color": "#ffffff",
