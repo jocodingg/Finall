@@ -1,11 +1,11 @@
 const CACHE_NAME = 'story-app-cache-v1';
 const STATIC_ASSETS = [
-  '/Deploy/index.html',
-  '/Deploy/manifest.webmanifest',
-  '/Deploy/favicon.png',
-  '/Deploy/images/icon-192x192.png',
-  '/Deploy/images/icon-512x512.png',
-  '/Deploy/images/logo.png'
+  '/Finall/index.html',
+  '/Finall/manifest.webmanifest',
+  '/Finall/favicon.png',
+  '/Finall/images/icon-192x192.png',
+  '/Finall/images/icon-512x512.png',
+  '/Finall/images/logo.png'
 ];
 
 self.addEventListener('install', event => {
@@ -36,7 +36,7 @@ self.addEventListener('fetch', event => {
   event.respondWith(
     caches.match(event.request).then(response => {
       return response || fetch(event.request).catch(() => {
-        return caches.match('/Deploy/index.html');
+        return caches.match('/Finall/index.html');
       });
     })
   );
@@ -64,6 +64,6 @@ self.addEventListener('push', function (event) {
 self.addEventListener('notificationclick', function (event) {
   event.notification.close();
   event.waitUntil(
-    clients.openWindow('/Deploy/')
+    clients.openWindow('/Finall/')
   );
 });

@@ -1,57 +1,57 @@
 {
   "name": "Dicoding Story App",
   "short_name": "StoryApp",
-  "start_url": "/deploy/",
-  "scope": "/Deploy",
+  "start_url": "/finall/",
+  "scope": "/Finall",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#6200ee",
   "description": "Aplikasi cerita pengguna Dicoding",
   "icons": [
     {
-      "src": "/Deploy/images/icon-192x192.png",
+      "src": "/Finall/images/icon-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/Deploy/images/icon-512x512.png",
+      "src": "/Final/images/icon-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
   ],
   "screenshots": [
     {
-      "src": "/Deploy/images/screenshot/StoryAPP_001.png",
+      "src": "/Finall/images/screenshot/StoryAPP_001.png",
       "sizes": "1920x1043",
       "type": "image/png",
       "form_factor": "wide"
     },
     {
-      "src": "/Deploy/images/screenshot/StoryAPP_002.png",
+      "src": "/Finall/images/screenshot/StoryAPP_002.png",
       "sizes": "1920x1043",
       "type": "image/png",
       "form_factor": "wide"
     },
     {
-      "src": "/Deploy/images/screenshot/StoryAPP_003.png",
+      "src": "/Finall/images/screenshot/StoryAPP_003.png",
       "sizes": "1920x1043",
       "type": "image/png",
       "form_factor": "wide"
     },
     {
-      "src": "/Deploy/images/screenshot/StoryAPP_004.png",
+      "src": "/Finall/images/screenshot/StoryAPP_004.png",
       "sizes": "1080x2280",
       "type": "image/png",
       "form_factor": "narrow"
     },
     {
-      "src": "/Deploy/images/screenshot/StoryAPP_005.png",
+      "src": "/Finall/images/screenshot/StoryAPP_005.png",
       "sizes": "1080x2280",
       "type": "image/png",
       "form_factor": "narrow"
     },
     {
-      "src": "/Deploy/images/screenshot/StoryAPP_006.png",
+      "src": "/Finall/images/screenshot/StoryAPP_006.png",
       "sizes": "1080x2280",
       "type": "image/png",
       "form_factor": "narrow"
@@ -62,10 +62,10 @@
       "name": "Tambah Cerita",
       "short_name": "new",
       "description": "Membuat cerita baru.",
-      "url": "/Deploy/#/add",
+      "url": "/Finall/#/add",
       "icons": [
         {
-          "src": "/Deploy/images/add-x512.png",
+          "src": "/Finall/images/add-x512.png",
           "type": "image/png",
           "sizes": "512x512"
         }
