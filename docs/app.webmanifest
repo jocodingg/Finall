@@ -75,10 +75,10 @@
       "name": "Cerita Tersimpan",
       "short_name": "Save",
       "description": "Lihat daftar cerita tersimpan.",
-      "url": "/Deploy/#/save",
+      "url": "/Finall/#/save",
       "icons": [
         {
-          "src": "/Deploy/images/bookmark-x512.png",
+          "src": "/Finall/images/bookmark-x512.png",
           "type": "image/png",
           "sizes": "512x512"
         }
